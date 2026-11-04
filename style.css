@@ -1,0 +1,16 @@
+html, body {
+  width: 100%; /* 讓頁面寬度填滿瀏覽器視窗。 */
+  height: 100%; /* 讓頁面高度填滿瀏覽器視窗。 */
+  margin: 0; /* 移除瀏覽器預設的頁面外距。 */
+  padding: 0; /* 移除瀏覽器預設的頁面內距。 */
+  overflow: hidden; /* 避免全螢幕測驗畫布出現多餘捲軸。 */
+  background-color: #bde0fe; /* 將網頁背景統一為指定的淡藍色。 */
+  font-family: "LXGW WenKai Mono TC", sans-serif; /* 使用指定的繁體中文字型。 */
+}
+
+canvas {
+  display: block; /* 移除畫布底部的行內元素空白。 */
+  width: 100%; /* 讓畫布寬度填滿頁面。 */
+  height: 100%; /* 讓畫布高度填滿頁面。 */
+  touch-action: none; /* 讓觸控拖曳答案時不會捲動網頁。 */
+}
